@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/deemashlayer
   gitUsername: deemashlayer
   gitBranch: main
+services:
+- serviceName: project.dimatest10_3_1.integrations:math1
+  packages:
+  - name: DimaTest10_3_1Project
+    version: "1.0"
+- serviceName: pub.math:max
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2006
